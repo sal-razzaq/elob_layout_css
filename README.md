@@ -54,7 +54,9 @@ Demo
 2) Copy the following files to the new directory
 
 elob_layout.css
+
 example_narrow.html
+
 example_wide.html
 
 3) Open example_narrow.html in a Web browser to see how the Web page looks like when the content is of a smaller width (such as Web forms).
