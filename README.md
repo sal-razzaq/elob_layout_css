@@ -15,7 +15,7 @@ The purpose of this CSS to impart a layout that is ubiquitous in line of busines
 
 3) The rest of the Web page real estate (the right-side, C) is used to display content based on the navigation commands chosen. 
 
-The above regions are depicted below.
+The above regions are depicted below (on GitHub view in [Raw]).
 
 -------------------------------------------------------
 B - Application Banner          user: me@email.com 
