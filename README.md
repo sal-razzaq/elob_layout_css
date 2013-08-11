@@ -67,4 +67,5 @@ How to use
 See example_minimumwidth.html and example_elastic.html for examples. Both of these example files use the same css, but have content of different widths.
 
 Thank you for trying elob_layout.css!
+
 Sal Razzaq
