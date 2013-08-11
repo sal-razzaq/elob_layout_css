@@ -59,7 +59,7 @@ example_wide.html
 
 3) Open example_narrow.html in a Web browser to see how the Web page looks like when the content is of a smaller width (such as Web forms).
 
-4) Open example_wide.html in a Web browser to see how the Web page looks like when the content is fairly wide (such as tabular reports).
+4) Open example_wide.html in a Web browser to see how the Web page looks like when the content is fairly wide (such as tabular reports). Note how the banner widens and the Browser horizontal scroll bar appears at the bottom.
 
 How to use
 ===============
