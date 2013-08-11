@@ -17,6 +17,7 @@ The purpose of this CSS to impart a layout that is ubiquitous in line of busines
 
 The above regions are depicted below (on GitHub view in [Raw]).
 
+<pre>
 -------------------------------------------------------
 B - Application Banner          user: me@email.com 
 -------------------------------------------------------
@@ -28,7 +29,7 @@ N - Navigation |   C - Content
                |
                |
                |
-			   
+</pre>			   
 
 The height of the application banner (B) and the width of the navigation (N) regions are known at design time and their dimensions can be regarded as "fixed".
 
