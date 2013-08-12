@@ -55,13 +55,17 @@ Demo
 
 elob_layout.css
 
-example_narrow.html
+example_fixed.html
+
+example_elastic.html
 
 example_wide.html
 
-3) Open example_narrow.html in a Web browser (maximize Browser window) to see how the Web page looks like when the content is of a smaller width (such as Web forms).
+3) Open example_fixed.html in a Web browser (maximize Browser window) to see how the Web page looks like when the content is of a smaller width (such as Web forms).
 
-4) Open example_wide.html in a Web browser to see how the Web page looks like when the content is fairly wide (such as tabular reports). Note how the banner widens and the Browser's horizontal scroll bar appears at the bottom.
+3) Open example_elastic.html in a Web browser (maximize Browser window) to see how the Web page resizes with content that can reflow like paragraphs.
+
+5) Open example_wide.html in a Web browser to see how the Web page looks like when the content is fairly wide (such as tabular reports). Note how the banner widens and the Browser's horizontal scroll bar appears at the bottom.
 
 How to use
 ===============
@@ -70,7 +74,7 @@ How to use
 
 2) Reference elob_layout.css in your HTML pages.
 
-See example_narrow.html and example_wide.html for examples. Both of these example files use the same css, but have content of different widths.
+See example_fixed.html, example_elastic.html, and example_wide.html for examples. Both of these example files use the same css, but have content of different widths.
 
 Thank you for trying elob_layout.css!
 
