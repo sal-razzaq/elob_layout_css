@@ -19,21 +19,21 @@
 
 <head>
 	<meta charset="utf-8" />
-	<title>Elastic Layout - Narrow (960px)</title>
+	<title>Fixed - 960px</title>
 	<link rel="stylesheet" href="elob_layout.css" type="text/css" />
 </head>
 
 
 <body>
 		
-	<div id="container">
+	<div id="elob_container">
 	
-		<div id="banner">
+		<div id="elob_banner">
 			<!-- Application name and logo go here -->
 			<div>Application Logo, Name, User Context</div>
 		</div>	<!-- header -->
 	
-		<div id="nav">
+		<div id="elob_nav">
 			<!-- Commands (links) go here -->
 			<div>Command 1</div>
 			<div>Command 2</div>
@@ -43,16 +43,23 @@
 			<div>Command 6</div>
 		</div>	<!-- nav -->
 	  
-		<div id="content">
-			<!-- The content goes here -->
-			<div class="fixedwidth">
-			<p>Content displayed as a result of choosing a command from the navigation panel. Content displayed as a result of choosing a command from the navigation panel. Content displayed as a result of choosing a command from the navigation panel.</p>
+		<div id="elob_content">
+			<!-- Dynamic content goes here -->
+			<h2>Fixed Layout</h2>
 			
-			<div>More data</div>
+			<div class="elob_fixedwidth">
+				<p>By enclosing the content in a div of CSS class <i>elob_fixedwidth</i> we are fixing the width of the page to 960px. The page width never grows beyond 960px. Try resizing your Browser window to see the effect.</p>
+				<p>Data Data Data Data Data Data Data Data Data Data Data Data Data Data Data Data Data Data Data Data Data Data Data Data Data Data Data Data Data Data Data Data Data Data Data Data Data Data Data Data Data Data Data Data Data Data </p>
+				
+				<form>
+				<div>Name: <input type="text"/></div>
+				<div>Address: <input type="text"/></div>
+				</form>
+				
 			</div>	<!-- fixed width -->
 		</div>	<!-- content -->
 
-		<div id="footer">
+		<div id="elob_footer">
 			<!-- Your copyright notice goes here -->
 			Copyright (c) XYZ 2013. All Rights Reserved.
 		</div>	<!-- footer -->

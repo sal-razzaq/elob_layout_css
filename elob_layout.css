@@ -17,24 +17,23 @@
 body{
 	margin: 0px;
 	padding: 0px;
-    font-family:  Verdana, Helvetica, Sans-Serif;
-    background-color: #F8F8FF;     		 /* ghost white */
 }
 
-div#container{
+div#elob_container{
 	float: left;
-	min-width: 958px;					/* 960 - 2px for borders */
+	min-width: 958px;					/* 960 - 2 for borders */
 	border: solid thin #2473BA;     	/* muted blue */
 	border-width: 1px;
 }
 
-div#banner{
+div#elob_banner{
 	padding: 10px;
 	border-bottom: solid thin #2473BA;  /* muted blue */
-	border-width: 1px
+	border-width: 1px;
+	clear: both;
 }
 
-div#nav{
+div#elob_nav{
 	float: left;
 	width:150px;
 	min-height: 400px;
@@ -46,19 +45,22 @@ div#nav{
 	border-bottom: solid thin #2473BA;  /* muted blue */
 	border-right-width: 2px;
 	border-bottom-width: 1px;
+	overflow: hidden;
 }
 
-div#content{
+div#elob_content{
 	margin-left: 167px;				/* 150 + 10 + 5 + 2 */
-	height:100%;
 	padding: 5px;
+	padding-left: 10px;
 }
 
-/* use a div with this class to constraint the content panel */
-.fixedwidth{
-	width: 781px;                        /* 960 - 167 - 10 - 2 = 781 */
+/* use a div with this class to constrain the content panel and total width of the page to 960 */
+.elob_fixedwidth{
+	width: 776px;                        /* 960 - 167 - 15 - 2 = 776 */
+	overflow: hidden;
 }
-div#footer{
+
+div#elob_footer{
 	padding: 5px;
 	padding-left: 15px;
 	border-top: solid thin #B0C4DE; /* light steel blue */
