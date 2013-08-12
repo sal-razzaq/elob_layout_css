@@ -54,6 +54,10 @@ div#content{
 	padding: 5px;
 }
 
+/* use a div with this class to constraint the content panel */
+.fixedwidth{
+	width: 781px;                        /* 960 - 167 - 10 - 2 = 781 */
+}
 div#footer{
 	padding: 5px;
 	padding-left: 15px;
