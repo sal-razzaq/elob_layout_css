@@ -27,7 +27,7 @@ div#elob_container{
 }
 
 div#elob_banner{
-	padding: 10px;
+	padding: 0px;
 	border-bottom: solid thin #2473BA;  /* muted blue */
 	border-width: 1px;
 	clear: both;
