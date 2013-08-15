@@ -56,7 +56,7 @@ div#elob_content{
 
 /* use a div with this class to constrain the content panel and total width of the page to 960 */
 .elob_fixedwidth{
-	width: 776px;                        /* 960 - 167 - 15 - 2 = 776 */
+	width: 766px;                        /* 960 - 177 - 15 - 2 = 766 */
 	overflow: hidden;
 }
 
