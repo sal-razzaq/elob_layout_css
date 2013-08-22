@@ -14,58 +14,56 @@
    limitations under the License.
 */
 
-body{
+
+body
+{
 	margin: 0px;
 	padding: 0px;
 }
 
-div#elob_container{
-	float: left;
-	min-width: 958px;					/* 960 - 2 for borders */
-	border: solid thin #2473BA;     	/* muted blue */
-	border-width: 1px;
+
+div#elob_container
+{
+    float: left;                        /* So that the container does NOT resize the HTML page to the width of the browser */
+	min-width: 956px;					/* 960 - 4 for borders */
+	border: solid thin #4682B4;     	/* Steel blue border */
+	border-width: 2px;  
+	border-radius: 4px 0px 4px 4px;     /* Rounded corners */
+    -moz-border-radius: 4px 0px 4px 4px;
+    -webkit-border-radius: 4px 0px 4px 4px;
+    -khtml-border-radius: 4px 0px 4px 4px;
+    -o-border-radius: 4px 0px 4px 4px;
 }
 
-div#elob_banner{
-	padding: 0px;
-	border-bottom: solid thin #2473BA;  /* muted blue */
-	border-width: 1px;
-	clear: both;
+
+div#elob_banner
+{
+	clear:both;
 }
 
-div#elob_nav{
-	float: left;
-	width:160px;
-	min-height: 400px;
-	padding-top: 10px;
-	padding-left: 10px;
-	padding-right: 5px;
-	padding-bottom: 20px;
-	border-right: solid thin #2473BA;   /* muted blue */
-	border-bottom: solid thin #2473BA;  /* muted blue */
-	border-right-width: 2px;
-	border-bottom-width: 1px;
+
+div#elob_nav
+{
+	float: left;                        /* Dock to the left */
+	width: 150px;
+	min-height: 500px;
 	overflow: hidden;
 }
 
-div#elob_content{
-	margin-left: 177px;				/* 160 + 10 + 5 + 2 */
-	padding: 5px;
-	padding-left: 10px;
+
+div#elob_content
+{
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    margin-left: 165px;
 }
 
-/* use a div with this class to constrain the content panel and total width of the page to 960 */
-.elob_fixedwidth{
-	width: 766px;                        /* 960 - 177 - 15 - 2 = 766 */
-	overflow: hidden;
-}
 
-div#elob_footer{
-	padding: 5px;
-	padding-left: 15px;
-	border-top: solid thin #B0C4DE; /* light steel blue */
+div#elob_footer
+{
+    clear: both;                        /* Display below elob_nav and elob_content */
+	border-top: solid thin #4682B4;     /* Steel blue border */
 	border-width: 1px;
-	font-size: .65em;
-	color: #36454F;     			/* Charcoal */
-	clear: both;
+	font-size: .70em;
 }
